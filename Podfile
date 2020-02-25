@@ -11,6 +11,6 @@ pod 'CLTypingLabel'
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
 pod 'ProgressHUD'
-
+pod 'IQKeyboardManagerSwift'
 
 end
