@@ -48,10 +48,12 @@ PODS:
     - nanopb/encode (= 0.3.9011)
   - nanopb/decode (0.3.9011)
   - nanopb/encode (0.3.9011)
+  - ProgressHUD (2.70)
 
 DEPENDENCIES:
   - CLTypingLabel
   - Firebase/Auth
+  - ProgressHUD
 
 SPEC REPOS:
   trunk:
@@ -67,6 +69,7 @@ SPEC REPOS:
     - GoogleUtilities
     - GTMSessionFetcher
     - nanopb
+    - ProgressHUD
 
 SPEC CHECKSUMS:
   CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
@@ -81,7 +84,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: 06eb53bb579efe7099152735900dd04bf09e7275
   GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  ProgressHUD: e603e8b8622c47d8818b9fb38b3cfe9d3e7ca421
 
-PODFILE CHECKSUM: 4882350cb0fd34a64b6f187fb6ed96bfd98b545e
+PODFILE CHECKSUM: 05bc474966bac1b268d4b5e4242495d9e5414a29
 
 COCOAPODS: 1.8.4
