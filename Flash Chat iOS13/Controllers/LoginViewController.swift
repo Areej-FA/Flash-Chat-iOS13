@@ -22,10 +22,13 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                 if let e = error{
                     print(e)
+                    // give the user feedback to display that thier registerion was unsuccessful and print the issue in thier own langage
                     ProgressHUD.showError(e.localizedDescription)
                 } else {
+                    // give the user feedback to display that thier registerion was successful
                     ProgressHUD.showSuccess()
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    // Navigate to the ChatViewController
+                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
                 
             }

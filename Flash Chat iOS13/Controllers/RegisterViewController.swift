@@ -28,7 +28,7 @@ class RegisterViewController: UIViewController {
                      // give the user feedback to display that thier registerion was successful
                     ProgressHUD.showSuccess()
                     // Navigate to the ChatViewController
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    self.performSegue(withIdentifier: K.registerSegue,   sender: self)
                 }
             }
             
